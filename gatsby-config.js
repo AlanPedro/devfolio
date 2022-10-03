@@ -1,75 +1,95 @@
 module.exports = {
+  pathPrefix: '/devfolio',
   siteMetadata: {
     // Site URL for when it goes live
     siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
     // Your Name
-    name: 'Ryan Fitzgerald',
+    name: 'Alan Hutcheson',
     // Main Site Title
-    title: `Ryan Fitzgerald | Full-Stack Developer`,
+    title: `Alan Hutcheson | Full-Stack Developer & Platform Engineer`,
     // Description that goes under your name in main bio
-    description: `Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.`,
+    description: `Experienced full stack developer and platform engineer looking for work in climate & sustainability technology`,
+    // Optional: Resume link file name
+    resume: `https://drive.google.com/file/d/15vdIkCfZirUI_uYamJpfW_w85HPl2ab0/view?usp=sharing`,
     // Optional: Twitter account handle
-    author: `@rfitzio`,
+    // author: `@rfitzio`,
     // Optional: Github account URL
-    github: `https://github.com/ryanfitzgerald`,
+    github: `https://github.com/AlanPedro`,
     // Optional: LinkedIn account URL
-    linkedin: `https://www.linkedin.com/in/ryanafitzgerald/`,
+    linkedin: `https://www.linkedin.com/in/alan-p-hutcheson/`,
     // Content of the About Me section
-    about: `Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus perferendis porro cumque ea error ab voluptatem. Temporibus adipisci exercitationem similique itaque quibusdam laudantium, qui molestiae quas, aut amet animi id.`,
+    about: `Technical Platform Lead with 5 years experience working across the technology stack; from full stack web and mobile development to functional automation testing, performance testing and dev-ops and infrastructure work. Passionate about designing and building applications and technologies that can help provide real world social value, particularly in the climate change space. Worked on a range of project scales and technologies, from solo freelance mobile development to large scale critical public sector infrastructure projects.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
-        name: 'Devfolio',
+        name: 'Carbon Emission Measurement Tool',
         description:
-          'A zero-config and blazing fast personal site + blog built with GatsbyJs and TailwindCSS',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+          'A tool enabling consulting teams to track and monitor their carbon emissions from work travel',
+        link: 'https://github.com/AlanPedro/cemt-web',
       },
       {
-        name: 'ChromeExtensionKit',
+        name: 'Doodle',
         description:
-          'Kit to jump-start your Chrome extension projects with a variety of battle-tested starter templates',
-        link: 'https://chromeextensionkit.com/?ref=devfolio',
+          'An online multiplayer game where players take turns drawing and describing wacky scenarios. The game has reached 70 countries with over 3000 completed games',
+        link: 'https://doodle-game.io',
       },
       {
-        name: 'Another Cool Project',
+        name: 'CoffeeBreak',
         description:
-          'Lorem ipsum dolor sit amet consectetur adipisicing elit ducimus perferendis',
+          'A slack bot that connects colleagues for an informat coffee chat',
         link: 'https://github.com/RyanFitzgerald/devfolio',
       },
     ],
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Acme Corp',
-        description: 'Full-Stack Developer, February 2020 - Present',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Deloitte Digital',
+        description: 'Senior Consultant, September 2022 - Present',
       },
       {
-        name: 'Globex Corp',
-        description: 'Full-Stack Developer, December 2017 - February 2020',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Career Break',
+        description: 'Full-Stack Developer, January 2022 - September 2022',
       },
       {
-        name: 'Hooli',
-        description: 'Full-Stack Developer, May 2015 - December 2017',
-        link: 'https://github.com/RyanFitzgerald/devfolio',
+        name: 'Deloitte Digital',
+        description: 'Platform Tech Lead, August 2020 - January 2022',
+      },
+      {
+        name: 'Deloitte Digital',
+        description: 'Senior Platform Engineer, September 2019 - August 2020',
+      },
+      {
+        name: 'Deloitte Digital',
+        description: 'Back End Engineer, November 2018 - September 2019',
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
     skills: [
       {
-        name: 'Languages & Frameworks',
+        name: 'Platform',
         description:
-          'JavaScript (ES6+), Golang, Node.js, Express.js, React, Ruby on Rails, PHP',
+          'Jenkins, Amazon Web Services (AWS), Firebase, Kubernetes, Docker, ELK Stack (Elasticsearch, Kibana, Logstash), Grafana, Dynatrace, Github Actions',
+      },
+      {
+        name: 'Front End',
+        description:
+          'Typescript, React, D3.js, Tailwind CSS, Material UI, Redux Observable, RxJS, Jest, Cypress',
+      },
+      {
+        name: 'Back End',
+        description: 'Scala, Java, Play Framework, Springboot, Node',
       },
       {
         name: 'Databases',
-        description: 'MongoDB, PostreSQL, MySQL',
+        description: 'PostgreSQL, Firebase Cloud Firestore',
+      },
+      {
+        name: 'Testing',
+        description: 'Selenium, Gatling',
       },
       {
         name: 'Other',
-        description:
-          'Docker, Amazon Web Services (AWS), CI / CD, Microservices, API design, Agile / Scrum',
+        description: 'CI/CD, Microservices, API Designs, Agile working, JIRA',
       },
     ],
   },
@@ -85,8 +105,8 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        path: `${__dirname}/content/blog`,
-        name: `blog`,
+        path: `${__dirname}/content/projects`,
+        name: `projects`,
       },
     },
     {

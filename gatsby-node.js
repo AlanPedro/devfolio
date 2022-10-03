@@ -4,7 +4,7 @@ const { createFilePath } = require(`gatsby-source-filesystem`);
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
 
-  const blogPost = path.resolve(`./src/templates/blog-post.jsx`);
+  const projectPost = path.resolve(`./src/templates/projects-post.jsx`);
   const result = await graphql(
     `
       {
@@ -40,7 +40,7 @@ exports.createPages = async ({ graphql, actions }) => {
 
     createPage({
       path: post.node.fields.slug,
-      component: blogPost,
+      component: projectPost,
       context: {
         slug: post.node.fields.slug,
         previous,
@@ -58,7 +58,7 @@ exports.onCreateNode = ({ node, actions, getNode }) => {
     createNodeField({
       name: `slug`,
       node,
-      value: `/blog${value}`,
+      value: `/project${value}`,
     });
   }
 };
@@ -71,6 +71,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       name: String
       title: String
       description: String
+      resume: String
       author: String
       github: String
       linkedin: String
@@ -83,7 +84,7 @@ exports.createSchemaCustomization = ({ actions }) => {
     type SectionItem {
       name: String!
       description: String!
-      link: String!
+      link: String
     }
 
     type MarkdownRemark implements Node {

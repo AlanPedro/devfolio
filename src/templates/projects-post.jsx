@@ -1,5 +1,4 @@
 import { graphql } from 'gatsby';
-import moment from 'moment';
 import React from 'react';
 
 import Header from '../components/header';
@@ -9,10 +8,10 @@ import SEO from '../components/seo';
 const classes = {
   wrapper: 'mt-16 blog-content',
   title: 'mt-16 text-4xl text-gray-900 font-bold',
-  date: 'text-gray-600 font-light',
+  description: 'text-gray-600 font-light',
 };
 
-const BlogPost = ({ data }) => {
+const ProjectPost = ({ data }) => {
   const post = data.markdownRemark;
 
   return (
@@ -20,8 +19,8 @@ const BlogPost = ({ data }) => {
       <Header metadata={data.site.siteMetadata} />
       <SEO title={post.frontmatter.title} />
       <h1 className={classes.title}>{post.frontmatter.title}</h1>
-      <p className={classes.date}>
-        Posted on {moment(post.frontmatter.date).format('MMMM D, YYYY')}
+      <p className={classes.description}>
+        {post.frontmatter.description}
       </p>
       <div
         className={classes.wrapper}
@@ -31,10 +30,10 @@ const BlogPost = ({ data }) => {
   );
 };
 
-export default BlogPost;
+export default ProjectPost;
 
 export const pageQuery = graphql`
-  query BlogPostBySlug($slug: String!) {
+  query ProjectPostBySlug($slug: String!) {
     site {
       siteMetadata {
         name
@@ -42,6 +41,7 @@ export const pageQuery = graphql`
         description
         about
         author
+        resume
         github
         linkedin
       }
