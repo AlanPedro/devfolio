@@ -1,257 +1,323 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alan Hutcheson | Full-Stack Developer & Platform Engineer]]></title><description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit, ipsum.]]></description><link>https://elastic-meninsky-aa7c74.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Oct 2022 14:23:04 GMT</lastBuildDate><item><title><![CDATA[My Fourth Blog Post]]></title><description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/blog/my-fourth-blog/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/blog/my-fourth-blog/</guid><pubDate>Mon, 12 Oct 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alan Hutcheson | Full-Stack Developer & Platform Engineer]]></title><description><![CDATA[Experienced full stack developer and platform engineer looking for work in climate & sustainability technology]]></description><link>https://elastic-meninsky-aa7c74.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Mon, 03 Oct 2022 22:26:06 GMT</lastBuildDate><item><title><![CDATA[Carbon Emissions Measurement Tool]]></title><description><![CDATA[The context As a global consulting firm, Deloitte employees take a lot of business-related flights (I can’t find where / who told me this…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/project/cemt/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/project/cemt/</guid><content:encoded>&lt;h2&gt;The context&lt;/h2&gt;
+&lt;p&gt;As a global consulting firm, Deloitte employees take a lot of business-related flights (I can’t find where / who told me this but apparently we were the #1 buyer of airline tickets at one point). This is unsustainable and therefore we needed a way to incentivise projects to start looking at their travel-related emissions and try to drive behaviours to help reduce carbon emissions from travel.&lt;/p&gt;
+&lt;p&gt;A project was testing out a concept for a carbon calculator - based in an excel spreadsheet - that allowed users to record their travel arrangements and then a project co-ordinator would manually work out the carbon emissions calculations. This was providing the teams with useful insights into their emissions profile, but the process was extremely manual and did not scale easily to other teams.&lt;/p&gt;
+&lt;h2&gt;What was the problem being solved?&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;No data available for teams to understand their travel emissions profile&lt;/li&gt;
+&lt;li&gt;No data making it hard for teams to set targets and monitor progress against them&lt;/li&gt;
+&lt;li&gt;Excel spreadsheet method was very manually intensive and required a lot of customisation for each project&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;What did I do?&lt;/h2&gt;
+&lt;p&gt;I joined up with the team behind the excel spreadsheet and together we conceptualised an online version of the spreadsheet, that:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Allowed users to input their own travel arrangemennts&lt;/li&gt;
+&lt;li&gt;Automatically ran the carbon calculations (using Google Distance API’s)&lt;/li&gt;
+&lt;li&gt;Visualised the emissions profile to enable data-driven action&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;From here I went away and created a solution design - which we could deploy into our internal cloud.&lt;/p&gt;
+&lt;h2&gt;Tech Stack&lt;/h2&gt;
+&lt;p&gt;A serverless AWS application - configured and developed using the Serverless CLI tool:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;React single page application&lt;/li&gt;
+&lt;li&gt;Node AWS lambdas&lt;/li&gt;
+&lt;li&gt;RDS (PostgreSQL)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3&gt;Architecture Diagram&lt;/h3&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg&quot;
+    href=&quot;/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/525d3/Cemt_Mvp_Aws_Final.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEGBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB1rgK4oCfE//EABkQAAMBAQEAAAAAAAAAAAAAAAABERIhIv/aAAgBAQABBQKI8zhtmmVn/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPwG4Y//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGMjP/EABcQAQEBAQAAAAAAAAAAAAAAAAAxARD/2gAIAQEABj8CXFXV5//EABsQAAIDAAMAAAAAAAAAAAAAAAABESExYXHB/9oACAEBAAE/IeoelAk6pCVehPrHMf/aAAwDAQACAAMAAAAQkA//xAAYEQACAwAAAAAAAAAAAAAAAAAAESExUf/aAAgBAwEBPxCGh4P/xAAVEQEBAAAAAAAAAAAAAAAAAAAAYf/aAAgBAgEBPxCij//EAB0QAQACAQUBAAAAAAAAAAAAAAEAEXEhMVFhgZH/2gAIAQEAAT8QBChIW2yvRejLkkzC08rR3Ayw5H2f/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 57.432432432432435%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAACwklEQVQoz2NggIKZM2fCaCYg5pgxYwbHDCA9c8YM9qkzZ3E2zl/O2TNtJsf0qVM5Z86cxQZSC1QD1wcHp8+cAdPbt29ngCpiByqSAWJJoGHS02fOlJg7Y5rM0+YMwW3zZ4jOmjdPZvr0acIgtd3TuxhsuvUZVNpFGJQ7hBGGXrp8mYEgOPQrjKF9oxTcIVIvMJSADb1w8SKYc/3GDb6r166JHjp5knHl5i1sS9etZ566ZiPTnqVzmUrX7mZm2fXGiadylpSuPANH0pk25qDpXoxhi/2ZQDh8SQCT0wxzRojFhw4xgeiNmzZp7ty1KwDEXrl5p+mK1QeEpm6cyNq6opH94Ys3TDBXmE7S1Pef7iSi3mfL5DDdhNVumjGLw3QzFq0eGTYGXaiir1+/Kty8edP55MmTLi9fvDFF94qhHAPj7ihV/T2JpvwM7a5sWIMknIGpcGMBhF1eVsa3as060aWLN4j//x/KMr3goc+81N8+0Uv1jTOW+BQClbC6CTGIKzMwcCSsPKSy49abnffff9/+9OP37S++/Njy/POPIzdevXADG+biYAPyO6u8pKC0mZ6eFtiCiB25FV4nChx7ZZ18OsymxjIdZJ2S897BgGEv54knNww//Pz7//3Pf//f/f7//9HbP/9//f////77tymQMKm9Ag5Mjzn/Ze17X5tj801RyFrRlthz11JNthhd+n9f4/71y//v373z98G7b3+Pnnv28/qj3/+ffv0Yj6yHkV/dVUPKpQIUfsw7TrxkO7XpP1Pvyk6mPS83MvkGhzHz8IuJgBSee3pX//rjFz9vP3v97cmHr98u3n366eHbL//vvHsdBzeNU0yNGUiB0pgkj4g0162nT5jnrljDsmLbVub569aw7Dt7GiTPAPQZ46JjK3kefPuoc//zB52rL5/ovPj7Vfvh1/f6O64fFgKpAQBV2TrAlQl1fgAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Mountain&quot;
-        title=&quot;Mountain&quot;
-        src=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg&quot;
-        srcset=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/a80bd/mountain.jpg 148w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c91a/mountain.jpg 295w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg 590w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg 640w&quot;
+        alt=&quot;Architecture Diagram&quot;
+        title=&quot;Architecture Diagram&quot;
+        src=&quot;/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/fcda8/Cemt_Mvp_Aws_Final.png&quot;
+        srcset=&quot;/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/12f09/Cemt_Mvp_Aws_Final.png 148w,
+/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/e4a3f/Cemt_Mvp_Aws_Final.png 295w,
+/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/fcda8/Cemt_Mvp_Aws_Final.png 590w,
+/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/efc66/Cemt_Mvp_Aws_Final.png 885w,
+/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/525d3/Cemt_Mvp_Aws_Final.png 1090w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Aliquam aliquid rem facere dolorum consectetur consequatur distinctio &lt;a href=&quot;https://github.com/RyanFitzgerald/devfolio&quot;&gt;mollitia id modi repellendus&lt;/a&gt; vero quae dolorem commodi soluta voluptates iusto nobis est dolore provident, porro veritatis placeat nemo impedit! Asperiores culpa delectus hic qui saepe, ipsum quia, exercitationem repellendus magni soluta sit suscipit laborum ducimus.&lt;/p&gt;
-&lt;h2&gt;Asperiores culpa delectus hic qui saepe&lt;/h2&gt;
-&lt;h3&gt;Facere labore velit ad autem&lt;/h3&gt;
-&lt;p&gt;Vitae veritatis quae eius quis vel soluta cumque? Facere labore velit ad autem. Nisi recusandae ducimus molestiae error ipsa quaerat, dignissimos suscipit similique itaque sunt provident quasi minus ut porro. Optio modi harum &lt;em&gt;dolore necessitatibus exercitationem&lt;/em&gt; blanditiis magni error ipsum, odit deleniti eligendi facilis, nesciunt delectus sit nostrum porro quam accusamus excepturi labore sequi maiores soluta?&lt;/p&gt;
-&lt;h3&gt;Porro veritatis placeat nemo impedit&lt;/h3&gt;
-&lt;p&gt;Veritatis et praesentium totam neque earum commodi nesciunt dolor quibusdam incidunt non, ex dicta molestias omnis maiores, maxime velit perferendis tenetur aut porro nostrum, suscipit soluta necessitatibus deserunt nobis. Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Repudiandae iusto et iure pariatur aliquid, quisquam, non sed culpa, dignissimos recusandae facilis. Debitis hic, quaerat recusandae ad id, quis nisi perspiciatis quo aliquid natus similique.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Illum esse recusandae facere ipsam fugiat est eaque ducimus facilis provident, distinctio cum aut corporis officiis quo fugit, similique temporibus inventore quidem tempora commodi saepe dicta! Numquam fugiat quibusdam aut ut, voluptatibus accusamus &lt;strong&gt;repellendus quas minus consequuntur&lt;/strong&gt; possimus! Est eaque nesciunt, reiciendis voluptate placeat aspernatur doloremque unde cum et architecto suscipit quam facere corrupti nihil odit eum minima voluptatem nobis.&lt;/p&gt;
-&lt;h2&gt;Voluptatibus accusamus repellendus quas minus&lt;/h2&gt;
-&lt;p&gt;Ipsum quod, ut animi mollitia ipsam repellat, dolore voluptate quibusdam quasi reiciendis necessitatibus odio ea nostrum illo explicabo? Ducimus, in repudiandae. Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat atque aperiam, praesentium eligendi! Sed voluptas voluptatem sunt distinctio pariatur ullam? Laudantium laboriosam.&lt;/p&gt;
+&lt;h3&gt;Front End&lt;/h3&gt;
 &lt;ul&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
+&lt;li&gt;React + Typescript + Redux&lt;/li&gt;
+&lt;li&gt;Material UI: &lt;em&gt;Quickly style components for the MVP&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Tailwind CSS: &lt;em&gt;Testing tailwind for the first time and really found it very useful&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;D3.js: &lt;em&gt;To create the data visualisations&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Cypress: &lt;em&gt;Trialling cypress for the first time for e2e journey testing&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
-&lt;h2&gt;Suscipit soluta necessitatibus deserunt nobi&lt;/h2&gt;
-&lt;p&gt;Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; helloWorld &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;World&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Hello &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;name&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;h3&gt;Back End&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Node + Typescript&lt;/li&gt;
+&lt;li&gt;PostgreSQL&lt;/li&gt;
+&lt;/ul&gt;
+&lt;!-- ## Challenges faced
 
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;John Doe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Third Blog Post]]></title><description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/blog/my-third-blog/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/blog/my-third-blog/</guid><pubDate>Sat, 10 Oct 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
+### Security - User sign ins requiring authentication from Azure (to access app AND to access lambdas)
+
+### Internal cloud constraint that database could not have public address
+
+### Using a custom subdomain with cloudfront &amp; s3 setup --&gt;
+&lt;h2&gt;Screenshots of MVP&lt;/h2&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg&quot;
+    href=&quot;/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/11f80/calender.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEGBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB1rgK4oCfE//EABkQAAMBAQEAAAAAAAAAAAAAAAABERIhIv/aAAgBAQABBQKI8zhtmmVn/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPwG4Y//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGMjP/EABcQAQEBAQAAAAAAAAAAAAAAAAAxARD/2gAIAQEABj8CXFXV5//EABsQAAIDAAMAAAAAAAAAAAAAAAABESExYXHB/9oACAEBAAE/IeoelAk6pCVehPrHMf/aAAwDAQACAAMAAAAQkA//xAAYEQACAwAAAAAAAAAAAAAAAAAAESExUf/aAAgBAwEBPxCGh4P/xAAVEQEBAAAAAAAAAAAAAAAAAAAAYf/aAAgBAgEBPxCij//EAB0QAQACAQUBAAAAAAAAAAAAAAEAEXEhMVFhgZH/2gAIAQEAAT8QBChIW2yvRejLkkzC08rR3Ayw5H2f/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAAByklEQVQoz6VSyW4TQRScz+MP+AGu3BA3DhwjcSKJEXiR5U38DHcTK47txNjOeDy9d89a1IyJhE8caKmm37y16qmj91evcdV5h9n0O75++4Kb22vcdm7QIf6+z/7r9r9z4f+MbreLD5/e4O3HV4hU2EHYHSrk+J9TwbJDimjzsMZi/hP3izukJ4k8L3BKNdaPz4gTjeVmg/lyjoftCve/DljvEjzS/2PxhLunGNvUwfkMWahaRMqmkDqBcgJ7aZBoDxNyFMFwbAHF2Gq7xFEckOX+D58aZVXzC5Q1uXkBn2tkhUNkvIHPHLIyQ2o0G1vYLMA4wwYB2gckHKTJIi8r1HWNqqpQsKbIPMoisJ5yeTeITlpwhwqaCbE8ItVk7BUO4gjhFBSLLBl7rqJpdiZYwstnOBGjDJIMJdlZEiBDpSSESOG9h8sK5BVQFCUqTiWFVvbLSUzAkStReQ3DxFBUbf7LaQZGlhKbZoEyteWCQ0ZGlGxt63OMWdrWOe7aQCquxVjEqcSREPS1ccIxJ/rXc2hESimglGqhCUms9jHWxJ4vQ8pGpTg3HI/HmEwmLWbT6SVmU4xGI/R6PfT7/QsMB4MWA9qDxh4O29zfWfjbWHfHwk4AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Mountain&quot;
-        title=&quot;Mountain&quot;
-        src=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg&quot;
-        srcset=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/a80bd/mountain.jpg 148w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c91a/mountain.jpg 295w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg 590w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg 640w&quot;
+        alt=&quot;Users Calender&quot;
+        title=&quot;Users Calender&quot;
+        src=&quot;/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/fcda8/calender.png&quot;
+        srcset=&quot;/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/12f09/calender.png 148w,
+/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/e4a3f/calender.png 295w,
+/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/fcda8/calender.png 590w,
+/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/efc66/calender.png 885w,
+/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/c83ae/calender.png 1180w,
+/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/11f80/calender.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Aliquam aliquid rem facere dolorum consectetur consequatur distinctio &lt;a href=&quot;https://github.com/RyanFitzgerald/devfolio&quot;&gt;mollitia id modi repellendus&lt;/a&gt; vero quae dolorem commodi soluta voluptates iusto nobis est dolore provident, porro veritatis placeat nemo impedit! Asperiores culpa delectus hic qui saepe, ipsum quia, exercitationem repellendus magni soluta sit suscipit laborum ducimus.&lt;/p&gt;
-&lt;h2&gt;Asperiores culpa delectus hic qui saepe&lt;/h2&gt;
-&lt;h3&gt;Facere labore velit ad autem&lt;/h3&gt;
-&lt;p&gt;Vitae veritatis quae eius quis vel soluta cumque? Facere labore velit ad autem. Nisi recusandae ducimus molestiae error ipsa quaerat, dignissimos suscipit similique itaque sunt provident quasi minus ut porro. Optio modi harum &lt;em&gt;dolore necessitatibus exercitationem&lt;/em&gt; blanditiis magni error ipsum, odit deleniti eligendi facilis, nesciunt delectus sit nostrum porro quam accusamus excepturi labore sequi maiores soluta?&lt;/p&gt;
-&lt;h3&gt;Porro veritatis placeat nemo impedit&lt;/h3&gt;
-&lt;p&gt;Veritatis et praesentium totam neque earum commodi nesciunt dolor quibusdam incidunt non, ex dicta molestias omnis maiores, maxime velit perferendis tenetur aut porro nostrum, suscipit soluta necessitatibus deserunt nobis. Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Repudiandae iusto et iure pariatur aliquid, quisquam, non sed culpa, dignissimos recusandae facilis. Debitis hic, quaerat recusandae ad id, quis nisi perspiciatis quo aliquid natus similique.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Illum esse recusandae facere ipsam fugiat est eaque ducimus facilis provident, distinctio cum aut corporis officiis quo fugit, similique temporibus inventore quidem tempora commodi saepe dicta! Numquam fugiat quibusdam aut ut, voluptatibus accusamus &lt;strong&gt;repellendus quas minus consequuntur&lt;/strong&gt; possimus! Est eaque nesciunt, reiciendis voluptate placeat aspernatur doloremque unde cum et architecto suscipit quam facere corrupti nihil odit eum minima voluptatem nobis.&lt;/p&gt;
-&lt;h2&gt;Voluptatibus accusamus repellendus quas minus&lt;/h2&gt;
-&lt;p&gt;Ipsum quod, ut animi mollitia ipsam repellat, dolore voluptate quibusdam quasi reiciendis necessitatibus odio ea nostrum illo explicabo? Ducimus, in repudiandae. Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat atque aperiam, praesentium eligendi! Sed voluptas voluptatem sunt distinctio pariatur ullam? Laudantium laboriosam.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
-&lt;h2&gt;Suscipit soluta necessitatibus deserunt nobi&lt;/h2&gt;
-&lt;p&gt;Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; helloWorld &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;World&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Hello &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;name&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;John Doe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My Second Blog Post]]></title><description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/blog/my-second-blog/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/blog/my-second-blog/</guid><pubDate>Fri, 02 Oct 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
+    &lt;/span&gt;
+&lt;em&gt;The users calender view where they can view, add and edit any travel arrangements or hotel stays&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg&quot;
+    href=&quot;/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/11f80/add-event.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEGBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB1rgK4oCfE//EABkQAAMBAQEAAAAAAAAAAAAAAAABERIhIv/aAAgBAQABBQKI8zhtmmVn/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPwG4Y//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGMjP/EABcQAQEBAQAAAAAAAAAAAAAAAAAxARD/2gAIAQEABj8CXFXV5//EABsQAAIDAAMAAAAAAAAAAAAAAAABESExYXHB/9oACAEBAAE/IeoelAk6pCVehPrHMf/aAAwDAQACAAMAAAAQkA//xAAYEQACAwAAAAAAAAAAAAAAAAAAESExUf/aAAgBAwEBPxCGh4P/xAAVEQEBAAAAAAAAAAAAAAAAAAAAYf/aAAgBAgEBPxCij//EAB0QAQACAQUBAAAAAAAAAAAAAAEAEXEhMVFhgZH/2gAIAQEAAT8QBChIW2yvRejLkkzC08rR3Ayw5H2f/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACHElEQVQoz2WSO28TQRSF999Q01HQgRAVsRG2k1DwqCLEQ0FJHMd2vI957cyu1wYLgogQ/wIpERUVMlKoKdIQMBKkIrbSoMOZTRCKstKnOzN75+w9d29w5cZFVBpXcffOPdTqt1CpVlC9WT2l8p9q5ez+NKdSnUO9Xse1uUu4fP0Cgkh2ECZtaKNgsxRZPyMONreMfeT9Av1igCwvuC/KvWOOzR0c8bn+jnEJlAsRbKy3sLayiubaKqIohtaGMcH6RhfNzgoery3hwdP7eNJcwqPmQyy3ltHqxTxvY7XdQzuSkFJBqbQkSESEOAmRyAjdWCAUimsNZyV2x2+wu7eFd+MR3u9tk9fYGW+jP3D8cAprHUyaQvCu0gldSgRCCkgtoWg5EgnFJGLGLM8wPTrGuecPMBo9h2SO0QqG95QWZcs8QZjEiCSFeNiLexSN0GPF2hocHv7CbDbF0fQ3ZtNjfD38jC+TD9h68RJJ2IZkvlExK4xZkKAwK0y8YBRBKvZCGejUshcKRWaxv7+PyeQ7Dr4d4MfkJ3Y+0fLHtyievWIRrMykZb6jdeccUtoPpLdMMS/i7UqlIbj2rdDG8Fyz6bJE0KYQviUCm/yBPRIlgmfU8DrMCYqiwHA4xGAw5Bj0y9HIOCY2y5EzGmtLB3Ecn2G9s4kW6YYn73yOFw4WFhawuLhI/sUTbp8yPz+PWq12jgaH2VP360YDXsfzF7CXAH8HdxKRAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Mountain&quot;
-        title=&quot;Mountain&quot;
-        src=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg&quot;
-        srcset=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/a80bd/mountain.jpg 148w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c91a/mountain.jpg 295w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg 590w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg 640w&quot;
+        alt=&quot;Users Adding an Event&quot;
+        title=&quot;Users Adding an Event&quot;
+        src=&quot;/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/fcda8/add-event.png&quot;
+        srcset=&quot;/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/12f09/add-event.png 148w,
+/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/e4a3f/add-event.png 295w,
+/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/fcda8/add-event.png 590w,
+/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/efc66/add-event.png 885w,
+/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/c83ae/add-event.png 1180w,
+/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/11f80/add-event.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
-    &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Aliquam aliquid rem facere dolorum consectetur consequatur distinctio &lt;a href=&quot;https://github.com/RyanFitzgerald/devfolio&quot;&gt;mollitia id modi repellendus&lt;/a&gt; vero quae dolorem commodi soluta voluptates iusto nobis est dolore provident, porro veritatis placeat nemo impedit! Asperiores culpa delectus hic qui saepe, ipsum quia, exercitationem repellendus magni soluta sit suscipit laborum ducimus.&lt;/p&gt;
-&lt;h2&gt;Asperiores culpa delectus hic qui saepe&lt;/h2&gt;
-&lt;h3&gt;Facere labore velit ad autem&lt;/h3&gt;
-&lt;p&gt;Vitae veritatis quae eius quis vel soluta cumque? Facere labore velit ad autem. Nisi recusandae ducimus molestiae error ipsa quaerat, dignissimos suscipit similique itaque sunt provident quasi minus ut porro. Optio modi harum &lt;em&gt;dolore necessitatibus exercitationem&lt;/em&gt; blanditiis magni error ipsum, odit deleniti eligendi facilis, nesciunt delectus sit nostrum porro quam accusamus excepturi labore sequi maiores soluta?&lt;/p&gt;
-&lt;h3&gt;Porro veritatis placeat nemo impedit&lt;/h3&gt;
-&lt;p&gt;Veritatis et praesentium totam neque earum commodi nesciunt dolor quibusdam incidunt non, ex dicta molestias omnis maiores, maxime velit perferendis tenetur aut porro nostrum, suscipit soluta necessitatibus deserunt nobis. Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Repudiandae iusto et iure pariatur aliquid, quisquam, non sed culpa, dignissimos recusandae facilis. Debitis hic, quaerat recusandae ad id, quis nisi perspiciatis quo aliquid natus similique.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Illum esse recusandae facere ipsam fugiat est eaque ducimus facilis provident, distinctio cum aut corporis officiis quo fugit, similique temporibus inventore quidem tempora commodi saepe dicta! Numquam fugiat quibusdam aut ut, voluptatibus accusamus &lt;strong&gt;repellendus quas minus consequuntur&lt;/strong&gt; possimus! Est eaque nesciunt, reiciendis voluptate placeat aspernatur doloremque unde cum et architecto suscipit quam facere corrupti nihil odit eum minima voluptatem nobis.&lt;/p&gt;
-&lt;h2&gt;Voluptatibus accusamus repellendus quas minus&lt;/h2&gt;
-&lt;p&gt;Ipsum quod, ut animi mollitia ipsam repellat, dolore voluptate quibusdam quasi reiciendis necessitatibus odio ea nostrum illo explicabo? Ducimus, in repudiandae. Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat atque aperiam, praesentium eligendi! Sed voluptas voluptatem sunt distinctio pariatur ullam? Laudantium laboriosam.&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
-&lt;h2&gt;Suscipit soluta necessitatibus deserunt nobi&lt;/h2&gt;
-&lt;p&gt;Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; helloWorld &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;World&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Hello &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;name&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;John Doe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!&lt;/p&gt;</content:encoded></item><item><title><![CDATA[My First Blog Post]]></title><description><![CDATA[Lorem ipsum dolor sit amet consectetur adipisicing elit Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/blog/my-first-blog/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/blog/my-first-blog/</guid><pubDate>Sun, 20 Sep 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit&lt;/h2&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
+    &lt;/span&gt;
+The user journey to add a travel arrangement or hotel stay&lt;/p&gt;
 &lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg&quot;
+    href=&quot;/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/11f80/add-stay.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
   &gt;
     &lt;span
     class=&quot;gatsby-resp-image-background-image&quot;
-    style=&quot;padding-bottom: 66.89189189189189%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/jpeg;base64,/9j/2wBDABALDA4MChAODQ4SERATGCgaGBYWGDEjJR0oOjM9PDkzODdASFxOQERXRTc4UG1RV19iZ2hnPk1xeXBkeFxlZ2P/2wBDARESEhgVGC8aGi9jQjhCY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2NjY2P/wgARCAANABQDASIAAhEBAxEB/8QAGAAAAwEBAAAAAAAAAAAAAAAAAAEGBAX/xAAVAQEBAAAAAAAAAAAAAAAAAAABAv/aAAwDAQACEAMQAAAB1rgK4oCfE//EABkQAAMBAQEAAAAAAAAAAAAAAAABERIhIv/aAAgBAQABBQKI8zhtmmVn/8QAFxEBAAMAAAAAAAAAAAAAAAAAAAERIf/aAAgBAwEBPwG4Y//EABYRAAMAAAAAAAAAAAAAAAAAAAABEf/aAAgBAgEBPwGMjP/EABcQAQEBAQAAAAAAAAAAAAAAAAAxARD/2gAIAQEABj8CXFXV5//EABsQAAIDAAMAAAAAAAAAAAAAAAABESExYXHB/9oACAEBAAE/IeoelAk6pCVehPrHMf/aAAwDAQACAAMAAAAQkA//xAAYEQACAwAAAAAAAAAAAAAAAAAAESExUf/aAAgBAwEBPxCGh4P/xAAVEQEBAAAAAAAAAAAAAAAAAAAAYf/aAAgBAgEBPxCij//EAB0QAQACAQUBAAAAAAAAAAAAAAEAEXEhMVFhgZH/2gAIAQEAAT8QBChIW2yvRejLkkzC08rR3Ayw5H2f/9k=&apos;); background-size: cover; display: block;&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACHElEQVQoz2WSu24TQRSG922o6SjoQBEVsRG+UgAVFSgRvo/t3bnuZdZe2wnIFUgxCDqeACMehQKBkEggIgFFhp8za7uBlT6d2dkz/57/nPGu3byMQuU67t29j1L5NgrFAoq3iv9Ae8UN2/fNt0JxF+VyGTu7V3D1xiV4XPcRSIYwMkjSGOk4JSySUQI7dliMsjSP+Xtm1+vRGpfrzkRWwtgAXq/TRavRRLvVBOcCYRhRlOj2hugzjUaDYW+/iWari0bbR7sj0PMVHrUYmswH4xpaGxgT53hScQgZQGqOgVAIlIE0IaJQ4HDRwGTxEPGzBxT3MHu5j9nRY3JC36MEcZIgimMoOmtCSS41PKUVdKhhyDJXkoQ1BO05+8ffP+Pizw+cr47xc3WC3/iF0/OvODiYwlBuFBoSpupClbfM4QVSgGsSok1f+CTK4UsfsU3x5dsHXOAU2+ds9QknZx8xfzqHDBg05UdGUIWCClIkTBVKJ8g5tKFemAhhnFAvDDI7wvNXFq/fzPFu+R7Lt0scvtB4snADm0FQW0wU5/k2oQFZi5jse9pZJjEn4uxqSnRIssQDDX9IQ2A9MMYwHEgMBlSAlPBpgA4uFZQiDadD570syzCdTjGZTOkajOkKZMSEejjGmPaTNM0POKQie/QjISQ6/SG6xCCgoYq1S5fj1Wo11Ot1YhvX3NnEarWKUqn0HxW6zI6yW1cqcDqOv1fz+kLJzwN0AAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
   &gt;&lt;/span&gt;
   &lt;img
         class=&quot;gatsby-resp-image-image&quot;
-        alt=&quot;Mountain&quot;
-        title=&quot;Mountain&quot;
-        src=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg&quot;
-        srcset=&quot;/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/a80bd/mountain.jpg 148w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c91a/mountain.jpg 295w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/1c72d/mountain.jpg 590w,
-/devfolio/static/04fd963e3e5a465c84a4c4d5014f320f/c08c5/mountain.jpg 640w&quot;
+        alt=&quot;Users Adding a Hotel Stay&quot;
+        title=&quot;Users Adding a Hotel Stay&quot;
+        src=&quot;/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/fcda8/add-stay.png&quot;
+        srcset=&quot;/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/12f09/add-stay.png 148w,
+/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/e4a3f/add-stay.png 295w,
+/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/fcda8/add-stay.png 590w,
+/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/efc66/add-stay.png 885w,
+/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/c83ae/add-stay.png 1180w,
+/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/11f80/add-stay.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
+    &lt;/span&gt;
+The user journey to add a hotel stay&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/devfolio/static/3ee02e619f71b79515a209579302eecc/11f80/event-summary.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 50%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAKCAYAAAC0VX7mAAAACXBIWXMAAAsSAAALEgHS3X78AAACIElEQVQoz2WSPW/TUBSG/W+Y2RjYQIiJOhX5ZABGJFSC2qRJ3BDfb3/Ejt0SJiQGNiRaCbrSFsTUiT+AxMKEkCqlEEhTvZzrBBUJS4/O8fW5r857fJxrty7DrV7Hvbv3Ua7chltyUVot/YO7oORe5KsXNW5pBZVKBTdWruDqzUtwmNqCLzyYQCMahhimQyJGlETLPEE6GhWxYJQgpu9xssDW2rogFtCxD6fX6aK90cJmuwXGOIwJKAp0en10PQ/NjSYePn6AZnsNjzbXsd7poDcQWGt7aHkDeExBKQ2twwJHSAYufAjF0OcSvtSUG0ShxO5Bht33EV6909j7kOLNxxx7h9tIRhE5ChFGMYIwhKS72gg6U3CkklBGQZNlJgWJKXCK1s7p6QTz8znO5r8xO5vBPjbuPN2BoprAaAR0TxtZjMzi+IKDKRKiwwEfkCjDgDo2UYSTyTdMZ5NC6NfsJ6bn3/FjeoJn4zGE70FRfaA5dcipIUnC1KGwgoxBaZqFDmDCqMi30xz7Ry9wePwaXz5/xfGnAzzfb+Pt0UsMszE1QZ2RbVsfk/U4jhGSfUdZyySgtS7sKm0IyiWdqwBSaPjMB+cCkhuKkmZObugHWhjlsqi1UIcjWok8z5FlOc0tpRWwK5LRCqVIsowGH5EIX8JgHdm8s/UEXaLvs+LdurTCTr1eR6PRIP7GBXeW1Go1lMvl/6jSMlsqNq9WYXUsfwCytP5EucFVzAAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Event Summary with Carbon Calculation&quot;
+        title=&quot;Event Summary with Carbon Calculation&quot;
+        src=&quot;/devfolio/static/3ee02e619f71b79515a209579302eecc/fcda8/event-summary.png&quot;
+        srcset=&quot;/devfolio/static/3ee02e619f71b79515a209579302eecc/12f09/event-summary.png 148w,
+/devfolio/static/3ee02e619f71b79515a209579302eecc/e4a3f/event-summary.png 295w,
+/devfolio/static/3ee02e619f71b79515a209579302eecc/fcda8/event-summary.png 590w,
+/devfolio/static/3ee02e619f71b79515a209579302eecc/efc66/event-summary.png 885w,
+/devfolio/static/3ee02e619f71b79515a209579302eecc/c83ae/event-summary.png 1180w,
+/devfolio/static/3ee02e619f71b79515a209579302eecc/11f80/event-summary.png 2498w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+The user is presented with a summary of their stay alongside the automated carbon calculations&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/devfolio/static/335021ea341366a4c42c9125dacecf98/11f80/dashboard.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.05405405405405%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB4ElEQVQoz41RaWsbMRDVTy9N09hOYuKQhgZ8gf9F+zUfS+m3hF6QJvjYS9JeOna1ryM5Ng6lpcKPHY2eZ+a9YaOrG1zfTAhTDEfv0Du7QP9shP75CL3BEMcnAxy9HeD1cR+vjnp4c3K6fT/A6fASl9fvcX5xBYZ/HGsbKKWhtEZZ1SHW2vzBaxygrQsxk0IgyzKsVitIKSHovomXlEuR5znSJKG8QF4UECnFggdeliWBJ4VEFFMcJeCcgymlEFDXyInIuUBVVtjlfdGa3jRNWVXVPpcmKd23eWsMqdEhZtZayLzAFw4Y91JK13VomgZlWYbYn7Zt4VV1BzxHb7VR6FwH5qdabyJ8WAJZ4Tsq2LbbF/TTxHFMf/LdWmgy7KlonwsRnKMmDg016ojDiiLHOorxcQP8+PWIp9UasaIp5C0Ra/oWwUejLJZxjp+Jwuc1ySQb4It5yYTQgO6saSxJqnDPWzI5QUzeSGXAxScYU1FnF7zdJI/4Skv4Fj3gIfmOu9hgKTWpUjDPBb2isJSWfHJkak2me78a8pV++0V4n8tSQpUcdSlocSkKWoikQbjMA8d7bWg5bGf2/5wuTLGV9rfDxuMxPCaTCQ7j2WyG+Xwe4GOfm06nL+DzO95isQj4DeA5KNKzrc7cAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Project Dashboard&quot;
+        title=&quot;Project Dashboard&quot;
+        src=&quot;/devfolio/static/335021ea341366a4c42c9125dacecf98/fcda8/dashboard.png&quot;
+        srcset=&quot;/devfolio/static/335021ea341366a4c42c9125dacecf98/12f09/dashboard.png 148w,
+/devfolio/static/335021ea341366a4c42c9125dacecf98/e4a3f/dashboard.png 295w,
+/devfolio/static/335021ea341366a4c42c9125dacecf98/fcda8/dashboard.png 590w,
+/devfolio/static/335021ea341366a4c42c9125dacecf98/efc66/dashboard.png 885w,
+/devfolio/static/335021ea341366a4c42c9125dacecf98/c83ae/dashboard.png 1180w,
+/devfolio/static/335021ea341366a4c42c9125dacecf98/11f80/dashboard.png 2498w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;
+The project wide dashboard to allow teams to monitor their emissions profiles&lt;/p&gt;</content:encoded></item><item><title><![CDATA[Doodle]]></title><description><![CDATA[Give it a try! Link to the game What was the problem being solved? The week before the full lockdown was enforced in the UK for Covid-19 in…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/project/doodle/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/project/doodle/</guid><content:encoded>&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 292px; margin: 0 0 30px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/devfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 170.94594594594597%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAiCAYAAABfqvm9AAAACXBIWXMAAAsTAAALEwEAmpwYAAAFvElEQVRIx5XW21cTVxQG8PnzqvUK3mrBW63VqrXUylJba1df63OfTaJAgaJFRSgILrW6EEGXIhgIuU0yud8hE3L7+u2TzJjIU4/rJJNk1s+9z9lnD9pMZBemozswHepEan0N5TJQ2ixhs1KBWdrEJr8ocar3zU0USyXU+dvbVBp/LK0hXDDwzOjGo8h2iKVNR3byw+d4FOpAsuCBaVaRLxQQiycQjcUR5bt1nUpnUCgWUSX6NBLF5bm38OVCBLswZWyDWNpUeAcmje2YDO5FtuSHjDr/VapVVGs1lCtVdW19/nSY5RQe6YdpfAaxtInwTkwQnCCY3vCiXgcqtSpqvJApiIW1TrlH7i2U4pgiOB7eBrG08fAujBs78DDYoUAZtXpNYTI2mGIymUI6k8GGWURd/V5X98gQ8B/9SzxkUGJpY3wZIzgW7ES6+BGsq9TRAtTtNNvBBCYIPiAolnbf2I37xk7c1/chVWyP0JoWnDcLKJZN+x4LfKh34R6DEksbNfZg1NiFUQX62kArOhmxfAzLxhLc0Q/IFjOw4hXwgd6NvwmKpd0N78Edgnf0/TZYrTcWvjXNQNoHd2wJntgKAkkvytWyDd4jOEJQLO2OsRcjkd0YIZhsgq2jsL7O2ixhceUd/n33BMF0AJmNtJ1ynuBo6Aj+kqBoacNGB4YZ6rB+AMnmLhc21rHw+jVrsKKKfNXjwcyTGdwecTHyqp2FBd4NHcUQQbG0QaMTg5QH9YNINMFUJo2hoWF4PDxahqHSD4QDWNVX4A/6VV3Wmqso4AjBP7khYmn9xj70Ux7QDyHRTDlXyGFh4TXcKyv44Hbj5ewrLPvew+Axi0ZjSCST9pIIOBw6hj5mOUBL6+NLX6QTfS2grI/P54fP70cmm0U4ZODx4hTmfbPq93K1Ym+YgIOh47gd2Ut0P7RbfHERvKV/0QZGYzGVrhGJoFgsYd47h8mlMZZMdssaDhB0RjogluYyDsDJKF08j/ENn6pguVnWaWl5GUm2qUYTKMGf8CKai6jPFUYpQebMBPpDJ+DgsomlucIHCTJKVrsFys3VZkOQ1Crc7VqtkaJqHs3uo0BG2K+fJMigwocEPEzwEMEjTNnflo7JvhdPJNQ6JlMptRlmyWy7J1dKEjxF8ADEItgFJy9cwWOM8GM/lIJOMd1MJqtA6TbyLlN+szalAZ6Gg9GJRbCbYBfB4wQDjTVk8VotX4pbzXKFqTe+L3NWa1bKAp4hyKDCRwiyhpw8Oq7ASRtUhVtvdO2iaaopuCyBlExrg82ZBIPn4Ah1QyyCJwgeI3iKJyXQ1g8lGivVbC6HfL6A5tLZZ1lFGDxP8CjEIvg1wa8IniYY3NK+Wsf6ZgG6NIdi2v4uV0qhP3CB4AmIpbm4Q05uu8t/hikH2yL8tMnOBWbxLvQGb/R5JArxBigpB3rg0BkULYKnCZ4ieHZLhNbDSaXP8/3C/RiPV6ewEJxjlJmPKQcuEvwaYmmu4LcEz8DlO88I9bYIraHQxbfIRXUMPR9gg/W1p+z/keA3EIvgOTh54fJd2AL+fuMGpmdmGk+/9TxymTjcL6fZNz9ZQ38vHEEGRUtzBr8jeI5gD1PW7RvlhPxy/Vc8ffZMffbE2WQ/TMKbWEViPd4CpgleJngWYmmuwPdwcpdc3ot2hFJjUirPX7ywn3gyVmNuGNkwn9/pdtB3FY7AeYilOQM/EOwheIlgyO4keiiEV/Pz6phZaCRnMEKPQq1HQQP8mSCDoqU5ZUG5S05vL1MO2f+zNAN5rkhhN9qXqaBGqeTsp56Afd5ruOnvgVgEe3lxCa61K4gVGmWTzWf5V1eMj4I8O0xCNQuJSPVJOXKq2zTes6zDPu91OPwXWXq90Bw+Lqigaz+pH//vKFVM9Ht/w03fJThpaU4uqNN/FTc9VzEbGsdybB6L0Vm851xsztbr1rkUe4V5YxpOzzU4fFcg1n8pf3Vq86zUCwAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;End of game results&quot;
+        title=&quot;End of game results&quot;
+        src=&quot;/devfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png&quot;
+        srcset=&quot;/devfolio/static/2d647225772a016c1fb17e508ba16032/12f09/doodle-preview-img.png 148w,
+/devfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png 292w&quot;
+        sizes=&quot;(max-width: 292px) 100vw, 292px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
     &lt;/span&gt;&lt;/p&gt;
-&lt;p&gt;Aliquam aliquid rem facere dolorum consectetur consequatur distinctio &lt;a href=&quot;https://github.com/RyanFitzgerald/devfolio&quot;&gt;mollitia id modi repellendus&lt;/a&gt; vero quae dolorem commodi soluta voluptates iusto nobis est dolore provident, porro veritatis placeat nemo impedit! Asperiores culpa delectus hic qui saepe, ipsum quia, exercitationem repellendus magni soluta sit suscipit laborum ducimus.&lt;/p&gt;
-&lt;h2&gt;Asperiores culpa delectus hic qui saepe&lt;/h2&gt;
-&lt;h3&gt;Facere labore velit ad autem&lt;/h3&gt;
-&lt;p&gt;Vitae veritatis quae eius quis vel soluta cumque? Facere labore velit ad autem. Nisi recusandae ducimus molestiae error ipsa quaerat, dignissimos suscipit similique itaque sunt provident quasi minus ut porro. Optio modi harum &lt;em&gt;dolore necessitatibus exercitationem&lt;/em&gt; blanditiis magni error ipsum, odit deleniti eligendi facilis, nesciunt delectus sit nostrum porro quam accusamus excepturi labore sequi maiores soluta?&lt;/p&gt;
-&lt;h3&gt;Porro veritatis placeat nemo impedit&lt;/h3&gt;
-&lt;p&gt;Veritatis et praesentium totam neque earum commodi nesciunt dolor quibusdam incidunt non, ex dicta molestias omnis maiores, maxime velit perferendis tenetur aut porro nostrum, suscipit soluta necessitatibus deserunt nobis. Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;blockquote&gt;
-&lt;p&gt;Repudiandae iusto et iure pariatur aliquid, quisquam, non sed culpa, dignissimos recusandae facilis. Debitis hic, quaerat recusandae ad id, quis nisi perspiciatis quo aliquid natus similique.&lt;/p&gt;
-&lt;/blockquote&gt;
-&lt;p&gt;Illum esse recusandae facere ipsam fugiat est eaque ducimus facilis provident, distinctio cum aut corporis officiis quo fugit, similique temporibus inventore quidem tempora commodi saepe dicta! Numquam fugiat quibusdam aut ut, voluptatibus accusamus &lt;strong&gt;repellendus quas minus consequuntur&lt;/strong&gt; possimus! Est eaque nesciunt, reiciendis voluptate placeat aspernatur doloremque unde cum et architecto suscipit quam facere corrupti nihil odit eum minima voluptatem nobis.&lt;/p&gt;
-&lt;h2&gt;Voluptatibus accusamus repellendus quas minus&lt;/h2&gt;
-&lt;p&gt;Ipsum quod, ut animi mollitia ipsam repellat, dolore voluptate quibusdam quasi reiciendis necessitatibus odio ea nostrum illo explicabo? Ducimus, in repudiandae. Ratione dolore sequi in animi obcaecati incidunt reprehenderit illo repellat atque aperiam, praesentium eligendi! Sed voluptas voluptatem sunt distinctio pariatur ullam? Laudantium laboriosam.&lt;/p&gt;
+&lt;p&gt;Give it a try! &lt;a href=&quot;https://doodle-game.io&quot;&gt;Link to the game&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;What was the problem being solved?&lt;/h2&gt;
+&lt;p&gt;The week before the full lockdown was enforced in the UK for Covid-19 in 2020 - I was in Cornwall with some friends on a little holiday. We were playing a lot of board games and one which we got very obsessed with was &lt;a href=&quot;https://boardgamegeek.com/boardgame/202982/scrawl&quot;&gt;Scrawl&lt;/a&gt;. However once we got back - the lockdown started and so we weren’t able to get together to play this game. Myself and a friend thought it would be possible to recreate the game online - and that is how Doodle was born.&lt;/p&gt;
+&lt;p&gt;It was a way for friends to connect and have fun whilst in lockdown.&lt;/p&gt;
+&lt;h2&gt;Technology Stack&lt;/h2&gt;
 &lt;ul&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
+&lt;li&gt;React + Typescript: &lt;em&gt;This has always been our preferred tech stack for building front end websites&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Redux + Redux Observables + RxJS: &lt;em&gt;Having not done a lot of reactive programming with rxjs before we decided this project would be a great time to test it out&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Firebase (Realtime DB, Firestore, Cloud Functions &amp;#x26; Analytics): &lt;em&gt;Quick and easy backend and datastore to setup with a good free tier&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Github Actions: &lt;em&gt;Free CI/CD pipeline where we could build, test and deploy our app to test and production environments&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Surge: &lt;em&gt;For free and easy command-line deployments&lt;/em&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus.&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Numquam fugiat quibusdam aut ut&lt;/li&gt;
-&lt;li&gt;Soluta necessitatibus deserunt nobis&lt;/li&gt;
-&lt;li&gt;Illum esse recusandae facere ipsam&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde reprehenderit inventore sunt, consequatur omnis tempore ullam natus, porro odit aut, atque asperiores repudiandae corporis quidem esse eos provident velit perferendis magni fugit eum quisquam eligendi. Atque distinctio iure aliquam veniam inventore, soluta est, cum accusantium possimus illum quasi eveniet sed amet ipsa culpa vel in delectus laboriosam repellendus totam. Facere.&lt;/p&gt;
-&lt;h2&gt;Suscipit soluta necessitatibus deserunt nobi&lt;/h2&gt;
-&lt;p&gt;Minus rem dicta eos exercitationem illum consequatur consectetur praesentium voluptas. Dolor inventore quasi necessitatibus odio eaque doloribus.&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;js&quot;&gt;&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; helloWorld &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;World&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
-  &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;Hello &lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;name&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
-&lt;span class=&quot;token function&quot;&gt;helloWorld&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&apos;John Doe&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;Numquam fugiat quibusdam aut ut, voluptatibus accusamus repellendus quas minus consequuntur possimus!&lt;/p&gt;</content:encoded></item></channel></rss>
+&lt;h2&gt;Outcome&lt;/h2&gt;
+&lt;p&gt;We released the first version of the game on the 20th May 2020 - and since then we’ve had players from over 70 countries. At the start uptake was mainly from friends and family, but after the first couple months we started hearing that many people were playing Doodle in their remote work socials as well. We stopped active development on the game in 2020, and currently just fix bugs and maintain the game.&lt;/p&gt;
+&lt;!-- ## Challenges we faced --&gt;</content:encoded></item><item><title><![CDATA[Carbn]]></title><description><![CDATA[The context Asked to build a landing page for a climate tech startup. Tech Stack React + Typescript Gatsby JS Screenshot]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/project/carbn/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/project/carbn/</guid><content:encoded>&lt;h2&gt;The context&lt;/h2&gt;
+&lt;p&gt;Asked to build a landing page for a climate tech startup.&lt;/p&gt;
+&lt;h2&gt;Tech Stack&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;React + Typescript&lt;/li&gt;
+&lt;li&gt;Gatsby JS&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2&gt;Screenshot&lt;/h2&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 590px; margin: 0 0 30px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/devfolio/static/ba3a6d377791021eacadad32e50ba849/67726/landing.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 176.35135135135133%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAjCAYAAACU9ioYAAAACXBIWXMAAAsSAAALEgHS3X78AAAES0lEQVRIx5VV629URRS/f4nRL6iLbFsjhZbttuEhu9vdatUt3TZWagMWVEgIEDWEJq3vqAmoxA8Vwwcf0S9qjAGVNlBAK+FLEVrbFWjsvu6+H912nz/PzL1ze3f3boOTnMzcM2d+93cec0ZqaHNCiJnNVpc2N7Z38blB/eY6axfXa3uqTqylTWS8ydLJhQE9ts3B12zT1GLDxlY71wm9qZVmsnt4y27tjLnNpYlkVpkx2UiHmnc9i6FDb/Dvvv1H0O7qRz/NbG1zv4jjI++j1daDw6+/Cauzj35gV7wSDPWAjMUTO57Bc3tfRVPHU3D1vQSLw4PO3n2w9wxxgL2vvIbNZPP8gWPYZt9DHjjUMBkwVEA78YjqjqnFjiaKj7nFAZPFiUb6idjb0LyLE1CAnJrrNYD6xDTSvMXpwdbeQXR3D2BHpwcNlAy+pyZFD8ZdFtkxFGLb0OVB474DGO4dgs2xhzNt0jK8lnEhEnNrTWza+lG2poCbyEXT4zvx0OYnsWGrjceMCd9jtq32irXEAm0lt5R5TdrIPSFWVx86KNss48q+fl0pkhyJokbCUURiCUTjScRIwtEYQnKE643sQzq9hDojFAxiauoyZmZmUCgUcL9DKpVKWJMyisUi35ibX8Di4hJ8Ph8CBJ7OZJFdWSFZpR8UUSqXUXm2xM9KZdoQogCWOODdxUX4gjIxDSEcDiOVznCXY/EEcvk8t9GfFSIJIPaHsvpXNrzeBSQSSSVGoRDX5XI5Q5AKQAZWrWTDL4dwOyLDGw0jnUpXxEmQuC9AcUA7rM4sMYGAH5FIWPXofzLM5fIcRITg2vR1uNyD6BkYhvfOPa4TYaqNoQFgJrPMRSTgwsQldLj3Y3v3IGb+us11LIF1k1INmEqnqVxk+AMh5PMFXP1jGmOfjuPtzz7Hrdm5Goai7OoCMmZpYsiA2bjy+zTOfPE1Pj77JW6qDA1dNnK3pEuKGH9ev4GDx07i6Im34P3njgaor0f2LdXL8NKSDz/+8BMmJi/zG1AmY1kOU5aj2m2qZqe5rAcrqMbnvvkOD1p2Yrd7gIBkHkd9HRpJDaCSOQXw/MUJjJw+hdPjZ+H3BxGnWxONxZFIpjTwCjBVahgW1bj8Sq7+MnkN35+/yJvDcnZFAWV3OWd8l4vVMeRK4fJX36LrhZfRP3yEbkhAYy9qzzCG6zGcpqy+89EnODN+jgo8U5N1oxjyflgdQ6Ucastm7u8FHD8xitF3P0QwJGuMq2u4hqFYs2a6nM1q3frnC7/hAbMVZosDN2/NVhR2yQiwug5ZQ2VvCUsEG5OXptC8/Wm0O3owOzevMRQFbQioB16lZpqkPsg6NBsTV67CPTIGz8goMVSbg64prwtYNrh6rMMcHXsPJz84hX/pFhk3h5Ly6hkBVRvyhkFxza+urntbJCMQfSxXCGSeXkDxrqwHxgGrgYwYxxMpJOMp/hzUC4kY/wFKzP+bMhIsygAAAABJRU5ErkJggg==&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Carbn Landing Page&quot;
+        title=&quot;Carbn Landing Page&quot;
+        src=&quot;/devfolio/static/ba3a6d377791021eacadad32e50ba849/fcda8/landing.png&quot;
+        srcset=&quot;/devfolio/static/ba3a6d377791021eacadad32e50ba849/12f09/landing.png 148w,
+/devfolio/static/ba3a6d377791021eacadad32e50ba849/e4a3f/landing.png 295w,
+/devfolio/static/ba3a6d377791021eacadad32e50ba849/fcda8/landing.png 590w,
+/devfolio/static/ba3a6d377791021eacadad32e50ba849/efc66/landing.png 885w,
+/devfolio/static/ba3a6d377791021eacadad32e50ba849/c83ae/landing.png 1180w,
+/devfolio/static/ba3a6d377791021eacadad32e50ba849/67726/landing.png 2231w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
