@@ -3,9 +3,9 @@ import React from 'react';
 import Section from '../section';
 import SummaryItem from '../summary-item';
 
-const BlogPosts = ({ posts }) => {
+const ProjectPosts = ({ posts }) => {
   return (
-    <Section title="All Blog Posts">
+    <Section title="All Projects">
       {posts.map((post) => (
         <SummaryItem
           key={post.node.fields.slug}
@@ -19,4 +19,4 @@ const BlogPosts = ({ posts }) => {
   );
 };
 
-export default BlogPosts;
+export default ProjectPosts;

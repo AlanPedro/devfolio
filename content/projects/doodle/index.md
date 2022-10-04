@@ -1,5 +1,6 @@
 ---
 title: Doodle
+date: '2021-04-01T12:00:00.00Z'
 description: 'An online multiplayer game where players take turns drawing and describing wacky scenarios. The game has reached 70 countries with over 3000 completed games'
 ---
 

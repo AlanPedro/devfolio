@@ -18,7 +18,7 @@ module.exports = {
     // Optional: LinkedIn account URL
     linkedin: `https://www.linkedin.com/in/alan-p-hutcheson/`,
     // Content of the About Me section
-    about: `Technical Platform Lead with 5 years experience working across the technology stack; from full stack web and mobile development to functional automation testing, performance testing and dev-ops and infrastructure work. Passionate about designing and building applications and technologies that can help provide real world social value, particularly in the climate change space. Worked on a range of project scales and technologies, from solo freelance mobile development to large scale critical public sector infrastructure projects.`,
+    about: `Technical lead with 5 years experience working across the technology stack; from full stack web and mobile development to functional automation testing, performance testing and dev-ops and infrastructure work. Passionate about designing and building applications and technologies that can help provide real world social value, particularly in the climate change space. Worked on a range of project scales and technologies, from solo freelance mobile development to large scale critical public sector infrastructure projects.`,
     // Optional: List your projects, they must have `name` and `description`. `link` is optional.
     projects: [
       {
@@ -43,24 +43,9 @@ module.exports = {
     // Optional: List your experience, they must have `name` and `description`. `link` is optional.
     experience: [
       {
-        name: 'Deloitte Digital',
-        description: 'Senior Consultant, September 2022 - Present',
-      },
-      {
-        name: 'Career Break',
-        description: 'Full-Stack Developer, January 2022 - September 2022',
-      },
-      {
-        name: 'Deloitte Digital',
-        description: 'Platform Tech Lead, August 2020 - January 2022',
-      },
-      {
-        name: 'Deloitte Digital',
-        description: 'Senior Platform Engineer, September 2019 - August 2020',
-      },
-      {
-        name: 'Deloitte Digital',
-        description: 'Back End Engineer, November 2018 - September 2019',
+        name: 'Résumé',
+        description: '',
+        link: `https://drive.google.com/file/d/15vdIkCfZirUI_uYamJpfW_w85HPl2ab0/view?usp=sharing`,
       },
     ],
     // Optional: List your skills, they must have `name` and `description`.
@@ -68,16 +53,16 @@ module.exports = {
       {
         name: 'Platform',
         description:
-          'Jenkins, Amazon Web Services (AWS), Firebase, Kubernetes, Docker, ELK Stack (Elasticsearch, Kibana, Logstash), Grafana, Dynatrace, Github Actions',
+          'Jenkins, Kubernetes, Docker, Amazon Web Services (AWS), Firebase, ELK Stack (Elasticsearch, Kibana, Logstash), Grafana, Dynatrace, Github Actions, Groovy, Bash',
+      },
+      {
+        name: 'Back End',
+        description: 'Scala, Java, Play Framework, Springboot, Node, Typescript, Kotlin',
       },
       {
         name: 'Front End',
         description:
           'Typescript, React, D3.js, Tailwind CSS, Material UI, Redux Observable, RxJS, Jest, Cypress',
-      },
-      {
-        name: 'Back End',
-        description: 'Scala, Java, Play Framework, Springboot, Node',
       },
       {
         name: 'Databases',
@@ -89,7 +74,7 @@ module.exports = {
       },
       {
         name: 'Other',
-        description: 'CI/CD, Microservices, API Designs, Agile working, JIRA',
+        description: 'CI/CD, Microservices, API Design, Agile working, JIRA',
       },
     ],
   },

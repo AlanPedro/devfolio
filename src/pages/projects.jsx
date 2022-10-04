@@ -1,7 +1,7 @@
 import { graphql } from 'gatsby';
 import React from 'react';
 
-import BlogPosts from '../components/blog-posts';
+import BlogPosts from '../components/project-posts';
 import Header from '../components/header';
 import Layout from '../components/layout';
 import SEO from '../components/seo';
@@ -34,6 +34,7 @@ export const pageQuery = graphql`
         title
         description
         about
+        resume
         author
         github
         linkedin

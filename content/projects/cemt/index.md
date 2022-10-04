@@ -1,5 +1,6 @@
 ---
 title: Carbon Emissions Measurement Tool
+date: '2020-12-01T12:00:00.00Z'
 description: 'A tool enabling consulting teams to track and monitor their carbon emissions from work travel'
 ---
 
@@ -15,7 +16,7 @@ A project was testing out a concept for a carbon calculator - based in an excel 
 - No data making it hard for teams to set targets and monitor progress against them
 - Excel spreadsheet method was very manually intensive and required a lot of customisation for each project
 
-## What did I do?
+## What was my role?
 
 I joined up with the team behind the excel spreadsheet and together we conceptualised an online version of the spreadsheet, that:
 
@@ -23,7 +24,7 @@ I joined up with the team behind the excel spreadsheet and together we conceptua
 - Automatically ran the carbon calculations (using Google Distance API's)
 - Visualised the emissions profile to enable data-driven action
 
-From here I went away and created a solution design - which we could deploy into our internal cloud.
+From here I went away and created a solution design - which we could deploy into our internal cloud. I then developed the whole solution from scratch - working alongside a designer for some of the components and our product owner to ensure the functionality was meeting the expected requirements.
 
 ## Tech Stack
 
@@ -32,6 +33,8 @@ A serverless AWS application - configured and developed using the Serverless CLI
 - React single page application
 - Node AWS lambdas
 - RDS (PostgreSQL)
+
+_Code coming soon - I just need to remove old secrets etc._
 
 ### Architecture Diagram
 

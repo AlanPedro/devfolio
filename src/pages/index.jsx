@@ -15,17 +15,17 @@ const Index = ({ data }) => {
   const posts = data.allMarkdownRemark.edges;
   const experience = get(data, 'site.siteMetadata.experience', false);
   const skills = get(data, 'site.siteMetadata.skills', false);
-  const noBlog = !posts || !posts.length;
+  const noProjects = !posts || !posts.length;
 
   return (
     <Layout>
       <SEO />
-      <Header metadata={data.site.siteMetadata} noBlog={noBlog} />
+      <Header metadata={data.site.siteMetadata} noProjects={noProjects} />
       {about && <SectionAbout about={about} />}
-      {!noBlog && <SectionProjects posts={posts} />}
       {experience && experience.length && (
         <SectionExperience experience={experience} />
       )}
+      {!noProjects && <SectionProjects posts={posts} />}
       {skills && skills.length && <SectionSkills skills={skills} />}
     </Layout>
   );

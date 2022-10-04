@@ -6,7 +6,7 @@ import SummaryItem from '../summary-item';
 
 const SectionProjects = ({ posts }) => {
   return (
-    <Section title="Projects">
+    <Section title="Project Showcase">
       {posts.map((post) => (
         <SummaryItem
           key={post.node.fields.slug}
@@ -17,7 +17,7 @@ const SectionProjects = ({ posts }) => {
         />
       ))}
       {posts.length >= 5 && (
-        <Link className="text-gray-500 text-sm hover:text-black" to="/blog">
+        <Link className="text-gray-500 text-sm hover:text-black" to="/projects">
           View all posts &rarr;
         </Link>
       )}
