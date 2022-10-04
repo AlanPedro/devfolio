@@ -8,7 +8,7 @@ module.exports = {
     // Main Site Title
     title: `Alan Hutcheson | Full-Stack Developer & Platform Engineer`,
     // Description that goes under your name in main bio
-    description: `Experienced full stack developer and platform engineer looking for work in climate & sustainability technology`,
+    description: `Experienced senior engineer with lead experience looking for work in climate & sustainability technology`,
     // Optional: Resume link file name
     resume: `https://drive.google.com/file/d/15vdIkCfZirUI_uYamJpfW_w85HPl2ab0/view?usp=sharing`,
     // Optional: Twitter account handle
