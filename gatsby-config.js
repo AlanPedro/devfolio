@@ -1,8 +1,8 @@
 module.exports = {
-  pathPrefix: '/devfolio',
+  pathPrefix: '/portfolio',
   siteMetadata: {
     // Site URL for when it goes live
-    siteUrl: `https://elastic-meninsky-aa7c74.netlify.app/`,
+    siteUrl: `https://alanpedro.github.io/portfolio/`,
     // Your Name
     name: 'Alan Hutcheson',
     // Main Site Title
