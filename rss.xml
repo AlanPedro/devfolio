@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alan Hutcheson | Full-Stack Developer & Platform Engineer]]></title><description><![CDATA[Experienced senior engineer with lead experience looking for work in climate & sustainability technology]]></description><link>https://elastic-meninsky-aa7c74.netlify.app</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 04 Oct 2022 10:59:46 GMT</lastBuildDate><item><title><![CDATA[Doodle]]></title><description><![CDATA[Give it a try! Link to the game What was the problem being solved? The week before the full lockdown was enforced in the UK for Covid-19 in…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/project/doodle/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/project/doodle/</guid><pubDate>Thu, 01 Apr 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Alan Hutcheson | Full-Stack Developer & Platform Engineer]]></title><description><![CDATA[Experienced senior engineer with lead experience looking for work in climate & sustainability technology]]></description><link>https://alanpedro.github.io/portfolio</link><generator>GatsbyJS</generator><lastBuildDate>Wed, 12 Oct 2022 10:24:23 GMT</lastBuildDate><item><title><![CDATA[Doodle]]></title><description><![CDATA[Give it a try! Link to the game What was the problem being solved? The week before the full lockdown was enforced in the UK for Covid-19 in…]]></description><link>https://alanpedro.github.io/portfolio/project/doodle/</link><guid isPermaLink="false">https://alanpedro.github.io/portfolio/project/doodle/</guid><pubDate>Thu, 01 Apr 2021 12:00:00 GMT</pubDate><content:encoded>&lt;p&gt;&lt;span
       class=&quot;gatsby-resp-image-wrapper&quot;
       style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto; max-width: 292px; margin: 0 0 30px;&quot;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png&quot;
+    href=&quot;/portfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -17,9 +17,9 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;End of game results&quot;
         title=&quot;End of game results&quot;
-        src=&quot;/devfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png&quot;
-        srcset=&quot;/devfolio/static/2d647225772a016c1fb17e508ba16032/12f09/doodle-preview-img.png 148w,
-/devfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png 292w&quot;
+        src=&quot;/portfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png&quot;
+        srcset=&quot;/portfolio/static/2d647225772a016c1fb17e508ba16032/12f09/doodle-preview-img.png 148w,
+/portfolio/static/2d647225772a016c1fb17e508ba16032/2e9f9/doodle-preview-img.png 292w&quot;
         sizes=&quot;(max-width: 292px) 100vw, 292px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -40,7 +40,7 @@
 &lt;/ul&gt;
 &lt;h2&gt;Outcome&lt;/h2&gt;
 &lt;p&gt;We released the first version of the game on the 20th May 2020 - and since then we’ve had players from over 70 countries. At the start uptake was mainly from friends and family, but after the first couple months we started hearing that many people were playing Doodle in their remote work socials as well. We stopped active development on the game in 2020, and currently just fix bugs and maintain the game.&lt;/p&gt;
-&lt;!-- ## Challenges we faced --&gt;</content:encoded></item><item><title><![CDATA[Carbon Emissions Measurement Tool]]></title><description><![CDATA[The context As a global consulting firm, Deloitte employees take a lot of business-related flights (I can’t find where / who told me this…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/project/cemt/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/project/cemt/</guid><pubDate>Tue, 01 Dec 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The context&lt;/h2&gt;
+&lt;!-- ## Challenges we faced --&gt;</content:encoded></item><item><title><![CDATA[Carbon Emissions Measurement Tool]]></title><description><![CDATA[The context As a global consulting firm, Deloitte employees take a lot of business-related flights (I can’t find where / who told me this…]]></description><link>https://alanpedro.github.io/portfolio/project/cemt/</link><guid isPermaLink="false">https://alanpedro.github.io/portfolio/project/cemt/</guid><pubDate>Tue, 01 Dec 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The context&lt;/h2&gt;
 &lt;p&gt;As a global consulting firm, Deloitte employees take a lot of business-related flights (I can’t find where / who told me this but apparently we were the #1 buyer of airline tickets at one point). This is unsustainable and therefore we needed a way to incentivise projects to start looking at their travel-related emissions and try to drive behaviours to help reduce carbon emissions from travel.&lt;/p&gt;
 &lt;p&gt;A project was testing out a concept for a carbon calculator - based in an excel spreadsheet - that allowed users to record their travel arrangements and then a project co-ordinator would manually work out the carbon emissions calculations. This was providing the teams with useful insights into their emissions profile, but the process was extremely manual and did not scale easily to other teams.&lt;/p&gt;
 &lt;h2&gt;What was the problem being solved?&lt;/h2&gt;
@@ -72,7 +72,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/525d3/Cemt_Mvp_Aws_Final.png&quot;
+    href=&quot;/portfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/525d3/Cemt_Mvp_Aws_Final.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -85,12 +85,12 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Architecture Diagram&quot;
         title=&quot;Architecture Diagram&quot;
-        src=&quot;/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/fcda8/Cemt_Mvp_Aws_Final.png&quot;
-        srcset=&quot;/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/12f09/Cemt_Mvp_Aws_Final.png 148w,
-/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/e4a3f/Cemt_Mvp_Aws_Final.png 295w,
-/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/fcda8/Cemt_Mvp_Aws_Final.png 590w,
-/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/efc66/Cemt_Mvp_Aws_Final.png 885w,
-/devfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/525d3/Cemt_Mvp_Aws_Final.png 1090w&quot;
+        src=&quot;/portfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/fcda8/Cemt_Mvp_Aws_Final.png&quot;
+        srcset=&quot;/portfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/12f09/Cemt_Mvp_Aws_Final.png 148w,
+/portfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/e4a3f/Cemt_Mvp_Aws_Final.png 295w,
+/portfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/fcda8/Cemt_Mvp_Aws_Final.png 590w,
+/portfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/efc66/Cemt_Mvp_Aws_Final.png 885w,
+/portfolio/static/81dfeb816e1fbaabf82ba589d5ffb1ec/525d3/Cemt_Mvp_Aws_Final.png 1090w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -124,7 +124,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/11f80/calender.png&quot;
+    href=&quot;/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/11f80/calender.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -137,13 +137,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Users Calender&quot;
         title=&quot;Users Calender&quot;
-        src=&quot;/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/fcda8/calender.png&quot;
-        srcset=&quot;/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/12f09/calender.png 148w,
-/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/e4a3f/calender.png 295w,
-/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/fcda8/calender.png 590w,
-/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/efc66/calender.png 885w,
-/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/c83ae/calender.png 1180w,
-/devfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/11f80/calender.png 2498w&quot;
+        src=&quot;/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/fcda8/calender.png&quot;
+        srcset=&quot;/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/12f09/calender.png 148w,
+/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/e4a3f/calender.png 295w,
+/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/fcda8/calender.png 590w,
+/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/efc66/calender.png 885w,
+/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/c83ae/calender.png 1180w,
+/portfolio/static/5b00a1bea4b47cb9a1d35c04dd130f1e/11f80/calender.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -157,7 +157,7 @@
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/11f80/add-event.png&quot;
+    href=&quot;/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/11f80/add-event.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -170,13 +170,13 @@
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Users Adding an Event&quot;
         title=&quot;Users Adding an Event&quot;
-        src=&quot;/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/fcda8/add-event.png&quot;
-        srcset=&quot;/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/12f09/add-event.png 148w,
-/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/e4a3f/add-event.png 295w,
-/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/fcda8/add-event.png 590w,
-/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/efc66/add-event.png 885w,
-/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/c83ae/add-event.png 1180w,
-/devfolio/static/fe96bc3d8dc9e096aa8125026511e182/11f80/add-event.png 2498w&quot;
+        src=&quot;/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/fcda8/add-event.png&quot;
+        srcset=&quot;/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/12f09/add-event.png 148w,
+/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/e4a3f/add-event.png 295w,
+/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/fcda8/add-event.png 590w,
+/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/efc66/add-event.png 885w,
+/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/c83ae/add-event.png 1180w,
+/portfolio/static/fe96bc3d8dc9e096aa8125026511e182/11f80/add-event.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -190,7 +190,7 @@ The user journey to add a travel arrangement or hotel stay&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/11f80/add-stay.png&quot;
+    href=&quot;/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/11f80/add-stay.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -203,13 +203,13 @@ The user journey to add a travel arrangement or hotel stay&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Users Adding a Hotel Stay&quot;
         title=&quot;Users Adding a Hotel Stay&quot;
-        src=&quot;/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/fcda8/add-stay.png&quot;
-        srcset=&quot;/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/12f09/add-stay.png 148w,
-/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/e4a3f/add-stay.png 295w,
-/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/fcda8/add-stay.png 590w,
-/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/efc66/add-stay.png 885w,
-/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/c83ae/add-stay.png 1180w,
-/devfolio/static/1fb22d670951338dfd3a714dd9db9d6e/11f80/add-stay.png 2498w&quot;
+        src=&quot;/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/fcda8/add-stay.png&quot;
+        srcset=&quot;/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/12f09/add-stay.png 148w,
+/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/e4a3f/add-stay.png 295w,
+/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/fcda8/add-stay.png 590w,
+/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/efc66/add-stay.png 885w,
+/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/c83ae/add-stay.png 1180w,
+/portfolio/static/1fb22d670951338dfd3a714dd9db9d6e/11f80/add-stay.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -223,7 +223,7 @@ The user journey to add a hotel stay&lt;/p&gt;
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/3ee02e619f71b79515a209579302eecc/11f80/event-summary.png&quot;
+    href=&quot;/portfolio/static/3ee02e619f71b79515a209579302eecc/11f80/event-summary.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -236,13 +236,13 @@ The user journey to add a hotel stay&lt;/p&gt;
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Event Summary with Carbon Calculation&quot;
         title=&quot;Event Summary with Carbon Calculation&quot;
-        src=&quot;/devfolio/static/3ee02e619f71b79515a209579302eecc/fcda8/event-summary.png&quot;
-        srcset=&quot;/devfolio/static/3ee02e619f71b79515a209579302eecc/12f09/event-summary.png 148w,
-/devfolio/static/3ee02e619f71b79515a209579302eecc/e4a3f/event-summary.png 295w,
-/devfolio/static/3ee02e619f71b79515a209579302eecc/fcda8/event-summary.png 590w,
-/devfolio/static/3ee02e619f71b79515a209579302eecc/efc66/event-summary.png 885w,
-/devfolio/static/3ee02e619f71b79515a209579302eecc/c83ae/event-summary.png 1180w,
-/devfolio/static/3ee02e619f71b79515a209579302eecc/11f80/event-summary.png 2498w&quot;
+        src=&quot;/portfolio/static/3ee02e619f71b79515a209579302eecc/fcda8/event-summary.png&quot;
+        srcset=&quot;/portfolio/static/3ee02e619f71b79515a209579302eecc/12f09/event-summary.png 148w,
+/portfolio/static/3ee02e619f71b79515a209579302eecc/e4a3f/event-summary.png 295w,
+/portfolio/static/3ee02e619f71b79515a209579302eecc/fcda8/event-summary.png 590w,
+/portfolio/static/3ee02e619f71b79515a209579302eecc/efc66/event-summary.png 885w,
+/portfolio/static/3ee02e619f71b79515a209579302eecc/c83ae/event-summary.png 1180w,
+/portfolio/static/3ee02e619f71b79515a209579302eecc/11f80/event-summary.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -256,7 +256,7 @@ The user is presented with a summary of their stay alongside the automated carbo
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/335021ea341366a4c42c9125dacecf98/11f80/dashboard.png&quot;
+    href=&quot;/portfolio/static/335021ea341366a4c42c9125dacecf98/11f80/dashboard.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -269,20 +269,20 @@ The user is presented with a summary of their stay alongside the automated carbo
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Project Dashboard&quot;
         title=&quot;Project Dashboard&quot;
-        src=&quot;/devfolio/static/335021ea341366a4c42c9125dacecf98/fcda8/dashboard.png&quot;
-        srcset=&quot;/devfolio/static/335021ea341366a4c42c9125dacecf98/12f09/dashboard.png 148w,
-/devfolio/static/335021ea341366a4c42c9125dacecf98/e4a3f/dashboard.png 295w,
-/devfolio/static/335021ea341366a4c42c9125dacecf98/fcda8/dashboard.png 590w,
-/devfolio/static/335021ea341366a4c42c9125dacecf98/efc66/dashboard.png 885w,
-/devfolio/static/335021ea341366a4c42c9125dacecf98/c83ae/dashboard.png 1180w,
-/devfolio/static/335021ea341366a4c42c9125dacecf98/11f80/dashboard.png 2498w&quot;
+        src=&quot;/portfolio/static/335021ea341366a4c42c9125dacecf98/fcda8/dashboard.png&quot;
+        srcset=&quot;/portfolio/static/335021ea341366a4c42c9125dacecf98/12f09/dashboard.png 148w,
+/portfolio/static/335021ea341366a4c42c9125dacecf98/e4a3f/dashboard.png 295w,
+/portfolio/static/335021ea341366a4c42c9125dacecf98/fcda8/dashboard.png 590w,
+/portfolio/static/335021ea341366a4c42c9125dacecf98/efc66/dashboard.png 885w,
+/portfolio/static/335021ea341366a4c42c9125dacecf98/c83ae/dashboard.png 1180w,
+/portfolio/static/335021ea341366a4c42c9125dacecf98/11f80/dashboard.png 2498w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
       /&gt;
   &lt;/a&gt;
     &lt;/span&gt;
-The project wide dashboard to allow teams to monitor their emissions profiles&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CoronaUnity - Phone a Friend Service]]></title><description><![CDATA[The Context During lockdown I joined Helpful Engineering, a community of engineers and designers that had come together at the start of the…]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/project/coronaunity/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/project/coronaunity/</guid><pubDate>Thu, 01 Oct 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Context&lt;/h2&gt;
+The project wide dashboard to allow teams to monitor their emissions profiles&lt;/p&gt;</content:encoded></item><item><title><![CDATA[CoronaUnity - Phone a Friend Service]]></title><description><![CDATA[The Context During lockdown I joined Helpful Engineering, a community of engineers and designers that had come together at the start of the…]]></description><link>https://alanpedro.github.io/portfolio/project/coronaunity/</link><guid isPermaLink="false">https://alanpedro.github.io/portfolio/project/coronaunity/</guid><pubDate>Thu, 01 Oct 2020 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The Context&lt;/h2&gt;
 &lt;p&gt;During lockdown I joined Helpful Engineering, a community of engineers and designers that had come together at the start of the COVID lockdown to build tools and services to help those in need.&lt;/p&gt;
 &lt;p&gt;I was then approached by a student-run charity called CoronaUnity who were looking for a developer to support them with their Phone a Friend Service.&lt;/p&gt;
 &lt;h2&gt;What was the problem being solved?&lt;/h2&gt;
@@ -318,7 +318,7 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/1b898bd45395b75b38f7e9f23776819c/ca12d/CoronaUnityPAFArchitecture.png&quot;
+    href=&quot;/portfolio/static/1b898bd45395b75b38f7e9f23776819c/ca12d/CoronaUnityPAFArchitecture.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -331,11 +331,11 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Phone a Friend Service Solution Design&quot;
         title=&quot;Phone a Friend Service Solution Design&quot;
-        src=&quot;/devfolio/static/1b898bd45395b75b38f7e9f23776819c/fcda8/CoronaUnityPAFArchitecture.png&quot;
-        srcset=&quot;/devfolio/static/1b898bd45395b75b38f7e9f23776819c/12f09/CoronaUnityPAFArchitecture.png 148w,
-/devfolio/static/1b898bd45395b75b38f7e9f23776819c/e4a3f/CoronaUnityPAFArchitecture.png 295w,
-/devfolio/static/1b898bd45395b75b38f7e9f23776819c/fcda8/CoronaUnityPAFArchitecture.png 590w,
-/devfolio/static/1b898bd45395b75b38f7e9f23776819c/ca12d/CoronaUnityPAFArchitecture.png 647w&quot;
+        src=&quot;/portfolio/static/1b898bd45395b75b38f7e9f23776819c/fcda8/CoronaUnityPAFArchitecture.png&quot;
+        srcset=&quot;/portfolio/static/1b898bd45395b75b38f7e9f23776819c/12f09/CoronaUnityPAFArchitecture.png 148w,
+/portfolio/static/1b898bd45395b75b38f7e9f23776819c/e4a3f/CoronaUnityPAFArchitecture.png 295w,
+/portfolio/static/1b898bd45395b75b38f7e9f23776819c/fcda8/CoronaUnityPAFArchitecture.png 590w,
+/portfolio/static/1b898bd45395b75b38f7e9f23776819c/ca12d/CoronaUnityPAFArchitecture.png 647w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -349,7 +349,7 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/abe5601425c9db0978bdeee410d91b1c/bb9c5/CoronaUnityPAFMatcherFunction.png&quot;
+    href=&quot;/portfolio/static/abe5601425c9db0978bdeee410d91b1c/bb9c5/CoronaUnityPAFMatcherFunction.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -362,10 +362,10 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Phone a Friend Service Matching Function&quot;
         title=&quot;Phone a Friend Service Matching Function&quot;
-        src=&quot;/devfolio/static/abe5601425c9db0978bdeee410d91b1c/bb9c5/CoronaUnityPAFMatcherFunction.png&quot;
-        srcset=&quot;/devfolio/static/abe5601425c9db0978bdeee410d91b1c/12f09/CoronaUnityPAFMatcherFunction.png 148w,
-/devfolio/static/abe5601425c9db0978bdeee410d91b1c/e4a3f/CoronaUnityPAFMatcherFunction.png 295w,
-/devfolio/static/abe5601425c9db0978bdeee410d91b1c/bb9c5/CoronaUnityPAFMatcherFunction.png 521w&quot;
+        src=&quot;/portfolio/static/abe5601425c9db0978bdeee410d91b1c/bb9c5/CoronaUnityPAFMatcherFunction.png&quot;
+        srcset=&quot;/portfolio/static/abe5601425c9db0978bdeee410d91b1c/12f09/CoronaUnityPAFMatcherFunction.png 148w,
+/portfolio/static/abe5601425c9db0978bdeee410d91b1c/e4a3f/CoronaUnityPAFMatcherFunction.png 295w,
+/portfolio/static/abe5601425c9db0978bdeee410d91b1c/bb9c5/CoronaUnityPAFMatcherFunction.png 521w&quot;
         sizes=&quot;(max-width: 521px) 100vw, 521px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -379,7 +379,7 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/2bc353a340930af98c08e6edb6a278ba/432e7/CoronaUnityPAFHandleCallerFunction.png&quot;
+    href=&quot;/portfolio/static/2bc353a340930af98c08e6edb6a278ba/432e7/CoronaUnityPAFHandleCallerFunction.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -392,10 +392,10 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Phone a Friend Service Handle Call Function&quot;
         title=&quot;Phone a Friend Service Handle Call Function&quot;
-        src=&quot;/devfolio/static/2bc353a340930af98c08e6edb6a278ba/432e7/CoronaUnityPAFHandleCallerFunction.png&quot;
-        srcset=&quot;/devfolio/static/2bc353a340930af98c08e6edb6a278ba/12f09/CoronaUnityPAFHandleCallerFunction.png 148w,
-/devfolio/static/2bc353a340930af98c08e6edb6a278ba/e4a3f/CoronaUnityPAFHandleCallerFunction.png 295w,
-/devfolio/static/2bc353a340930af98c08e6edb6a278ba/432e7/CoronaUnityPAFHandleCallerFunction.png 570w&quot;
+        src=&quot;/portfolio/static/2bc353a340930af98c08e6edb6a278ba/432e7/CoronaUnityPAFHandleCallerFunction.png&quot;
+        srcset=&quot;/portfolio/static/2bc353a340930af98c08e6edb6a278ba/12f09/CoronaUnityPAFHandleCallerFunction.png 148w,
+/portfolio/static/2bc353a340930af98c08e6edb6a278ba/e4a3f/CoronaUnityPAFHandleCallerFunction.png 295w,
+/portfolio/static/2bc353a340930af98c08e6edb6a278ba/432e7/CoronaUnityPAFHandleCallerFunction.png 570w&quot;
         sizes=&quot;(max-width: 570px) 100vw, 570px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
@@ -404,7 +404,7 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
     &lt;/span&gt;&lt;/p&gt;
 &lt;h2&gt;Outcome&lt;/h2&gt;
 &lt;p&gt;We ran the service for 3 months (May - August 2020), matching just over 300 users over this time period. The feedback from users was overwhelmingly positive, however we struggled to get funding to suppor the platform costs and as lockdown restrictions started to ease up in the summer, CoronaUnity decided to focus on other projects and ended up discontinuing the Phone a Friend service.&lt;/p&gt;
-&lt;!-- ## Challenges we faced --&gt;</content:encoded></item><item><title><![CDATA[Carbn]]></title><description><![CDATA[The context Asked to build a landing page for a climate tech startup. Tech Stack React + Typescript Gatsby JS Screenshot]]></description><link>https://elastic-meninsky-aa7c74.netlify.app/project/carbn/</link><guid isPermaLink="false">https://elastic-meninsky-aa7c74.netlify.app/project/carbn/</guid><pubDate>Mon, 01 Apr 2019 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The context&lt;/h2&gt;
+&lt;!-- ## Challenges we faced --&gt;</content:encoded></item><item><title><![CDATA[Carbn]]></title><description><![CDATA[The context Asked to build a landing page for a climate tech startup. Tech Stack React + Typescript Gatsby JS Screenshot]]></description><link>https://alanpedro.github.io/portfolio/project/carbn/</link><guid isPermaLink="false">https://alanpedro.github.io/portfolio/project/carbn/</guid><pubDate>Mon, 01 Apr 2019 12:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;The context&lt;/h2&gt;
 &lt;p&gt;Asked to build a landing page for a climate tech startup.&lt;/p&gt;
 &lt;h2&gt;Tech Stack&lt;/h2&gt;
 &lt;ul&gt;
@@ -418,7 +418,7 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
     &gt;
       &lt;a
     class=&quot;gatsby-resp-image-link&quot;
-    href=&quot;/devfolio/static/ba3a6d377791021eacadad32e50ba849/67726/landing.png&quot;
+    href=&quot;/portfolio/static/ba3a6d377791021eacadad32e50ba849/67726/landing.png&quot;
     style=&quot;display: block&quot;
     target=&quot;_blank&quot;
     rel=&quot;noopener&quot;
@@ -431,13 +431,13 @@ The project wide dashboard to allow teams to monitor their emissions profiles&lt
         class=&quot;gatsby-resp-image-image&quot;
         alt=&quot;Carbn Landing Page&quot;
         title=&quot;Carbn Landing Page&quot;
-        src=&quot;/devfolio/static/ba3a6d377791021eacadad32e50ba849/fcda8/landing.png&quot;
-        srcset=&quot;/devfolio/static/ba3a6d377791021eacadad32e50ba849/12f09/landing.png 148w,
-/devfolio/static/ba3a6d377791021eacadad32e50ba849/e4a3f/landing.png 295w,
-/devfolio/static/ba3a6d377791021eacadad32e50ba849/fcda8/landing.png 590w,
-/devfolio/static/ba3a6d377791021eacadad32e50ba849/efc66/landing.png 885w,
-/devfolio/static/ba3a6d377791021eacadad32e50ba849/c83ae/landing.png 1180w,
-/devfolio/static/ba3a6d377791021eacadad32e50ba849/67726/landing.png 2231w&quot;
+        src=&quot;/portfolio/static/ba3a6d377791021eacadad32e50ba849/fcda8/landing.png&quot;
+        srcset=&quot;/portfolio/static/ba3a6d377791021eacadad32e50ba849/12f09/landing.png 148w,
+/portfolio/static/ba3a6d377791021eacadad32e50ba849/e4a3f/landing.png 295w,
+/portfolio/static/ba3a6d377791021eacadad32e50ba849/fcda8/landing.png 590w,
+/portfolio/static/ba3a6d377791021eacadad32e50ba849/efc66/landing.png 885w,
+/portfolio/static/ba3a6d377791021eacadad32e50ba849/c83ae/landing.png 1180w,
+/portfolio/static/ba3a6d377791021eacadad32e50ba849/67726/landing.png 2231w&quot;
         sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
         style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
         loading=&quot;lazy&quot;
